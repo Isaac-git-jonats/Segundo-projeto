@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+.conteiner{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.links{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.26px;
+    text-align: left;
+    color: #989D9C;
+    margin-top: 38px;
+    margin-left: 76px;
+    word-spacing: 23px;
+    cursor: pointer;
+}
+.one-button{
+    width: 130px;
+    height: 41px;
+    border: none;
+    border-radius: 50px;
+    background-color: #665AE1;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 22px;
+}
+.one-button:hover{
+    background-color: #534ab8;
+}
+.one-button:active{
+    background-color: #6c65af;
+}
+section{
+    margin-top: 217px;
+    margin-left: 125px;
+}
+img{
+    display: inline-block;
+}
+.texto{
+    display: inline-block;
+    width: 600px;
+    height: 100px;
+    margin-left: 86px;
+}
+h1{
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 121.9px;
+    text-align: left;
+}
+h2{
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 70.7px;
+    text-align: left;
+}
+p{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.26px;
+    text-align: left;
+    margin: 32px 65px;
+
+}
+.two-button{
+    width: 239px;
+    height: 64px;
+    border-radius: 50px;
+    font-size: 24px;
+    line-height: 34.13px;
+    background-color: #ADFF00;
+    border: none;
+    cursor: pointer;
+
+}
+.two-button:hover{
+    background-color: #84c003;
+}
+.two-button:active{
+    background-color: #9fdb1e;
+}
+@media screen and (max-width:800px) {
+    img{
+        position: relative;
+    }
+    .texto{
+        position: relative;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 36.57px;
+        top: 500pxs;
+
+    }
+    
+    .links {
+        display: none;
+    }
+    p{
+        display: none;
+    }
+
+
+}
